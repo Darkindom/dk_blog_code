@@ -102,5 +102,4 @@ live2d:
     vOffset: -50
     hOffset: 0
   mobile:
-    show: true
-    scale: 0.5
+    show: false
