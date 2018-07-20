@@ -94,8 +94,4 @@ markdown中插入图片的语法
 将文章同步到github上。  
 最后记得`git push`将改动同步到源码上~
 
-#### 三、参考
-[嘟嘟独立博客 hexo干活系列：（一）hexo+github搭建个人独立博客](http://tengj.top/2016/02/22/hexo1/)
-
-
 | 作者：[Dk](https://darkindom.github.io)
