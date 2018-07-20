@@ -81,3 +81,26 @@ deploy:
   type: git
   repo:
       github: git@github.com:Darkindom/Darkindom.github.io.git,master
+
+# miku
+live2d:
+  # helper
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-miku
+  # General Settings
+  display:
+    position: left
+    width: 100
+    height: 200
+    vOffset: -50
+    hOffset: 0
+  mobile:
+    show: true
+    scale: 0.5
