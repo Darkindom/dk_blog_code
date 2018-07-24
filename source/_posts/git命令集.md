@@ -1,11 +1,11 @@
 ---
-title: git命令集
+title: git命令（二）
 date: 2018-07-19 17:05:07
 tags: 
 - git
 categories:
 - 编程工具
-description: 一些git命令的笔记，本文仅作为&laquo;git常用命令&raquo;的补充
+description: 本文仅作为&laquo;git常用命令&raquo;的补充
 ---
 
 # 本地
