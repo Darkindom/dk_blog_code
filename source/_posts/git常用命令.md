@@ -26,7 +26,7 @@ description: 关于git的一些知识，以及常用的git命令
 删除文件，将会使其变成 `Untracked` 状态
 
 
-## 一、基本
+## 二、基本
 ### config
 ```
 查看git配置
@@ -82,7 +82,7 @@ git diff <commit> [path]
 git diff --shortstat "@{0 day ago}"
 ```
 
-## 二、本地
+## 三、本地
 ### add
 ```
 添加文件到暂存区
@@ -175,7 +175,7 @@ git rebase -i <start point> <end point>
 ```
 
 
-## 三、远程
+## 四、远程
 ### clone
 ```
 克隆远程仓库
@@ -192,6 +192,9 @@ git remote show <remote>
 
 添加一个远程仓库，并命名为 new name
 git remote add <new name> <url>
+
+修改远程仓库的地址
+git remote set-url origin <url>
 ```
 
 ### fetch
@@ -233,7 +236,7 @@ git push [remote] --force
 git push [remote] --all
 ```
 
-## 四、撤销
+## 五、撤销
 ### checkout
 ```
 将所有暂存区的文件恢复到工作区
