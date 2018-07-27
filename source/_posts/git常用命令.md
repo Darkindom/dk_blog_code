@@ -263,17 +263,19 @@ git merge --abort
 重置暂存区的指定文件
 git reset <file>
 
-重置暂存区和工作区
-git reset --hard
-
 重置当前分支的指针为指定提交，重置暂存区，工作区不变
+commit默认是HEAD，相当于git add的反操作
 git reset <commit>
 
-重置当前分支的指针为指定提交，重置暂存区和工作区
-git reset --hard [commit]
+工作区不改变，但是暂存区会回退到上一次提交之前，HEAD回到上一个提交。
+git reset --mixed HEAD^
 
-重置当前分支的指针为指定提交，暂存区，工作区不变
-git reset --keep [commit]
+工作区和暂存区不改变，HEAD回到上一个提交，即撤销最新的提交。
+git reset --sort HEAD^
+
+撤销最近的提交，工作区和暂存区都会回退到上一次提交的状态
+HEAD回到上一个提交，即自上一次以来的提交全部丢失。
+git reset --hard HEAD^
 ```
 
 ### revert
