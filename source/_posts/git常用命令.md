@@ -9,7 +9,7 @@ description: 关于git的一些知识，以及常用的git命令
 ---
 
 # 常用git命令
-
+ssss
 ## 一、git状态
 ### 工作区域
 ![git-area](/images/git-command/git-command-1.png)
