@@ -82,7 +82,11 @@ deploy:
   repo:
       github: git@github.com:Darkindom/Darkindom.github.io.git,master
 
-# miku
+search:
+  path: search.xml
+  field: post
+
+# my miku
 live2d:
   # helper
   enable: true

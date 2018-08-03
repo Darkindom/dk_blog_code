@@ -18,7 +18,7 @@ Hexo依赖
 * Node.js
 * git
 
-需要电脑上先安装好Node.js和git
+需要电脑上先安装好Node.js和git
 - - - 
 然后是安装hexo
 ```
@@ -61,7 +61,7 @@ hexo安装主题的过程十分简单，在目录下找到`themes`文件夹，�
 
 ## 安装next
 next有两种安装方式
-第一种是直接使用 git 克隆到`themes`文件夹，之后也可以直接通过`git pull`进行更新
+第一种是直接使用 git 克隆到`themes`文件夹，之后也可以直接通过`git pull`进行更新
 ```
 // 定位至themes文件夹目录下
 git clone https://github.com/iissnan/hexo-theme-next
@@ -70,7 +70,7 @@ git clone https://github.com/iissnan/hexo-theme-next
 [next版本发布页面](https://github.com/iissnan/hexo-theme-next/releases)
 
 ## 启用主题
-把next放入`themes`文件夹后，找到**站点配置文件**（根目录下的`_config.yml`文件），将`theme`字段的值改为`next`。如图所示
+把next放入`themes`文件夹后，找到**站点配置文件**（根目录下的`_config.yml`文件），将`theme`字段的值改为`next`。如图所示
 ![config](/images/my-first-blog/my-first-blog-pic2.png)
 
 这时候执行`ctrl + C`中止本地服务器，然后通过`hexo clean`清除缓存后，再启动服务器，就可以看到博客的主题已经变成了next了。
