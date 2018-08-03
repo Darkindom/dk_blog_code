@@ -35,6 +35,7 @@ description: 在使用hexo的站内搜索时，经常出现，点击搜索按钮
 安装好该插件后，通过 `Format Document`（Mac中通过Command + Shift + P 唤起，然后输入Format Document）的命令将文章中的异常字符去除，再保存
 
 这样就可以正常使用站内搜索啦~！
+
 参考: [vscode控制字符引起的问题以及解决思路](https://wdd.js.org/vscode-control-characters-problem.html)
 
 | 作者：[Dk](https://darkindom.github.io)
